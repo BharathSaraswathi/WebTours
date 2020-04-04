@@ -10,7 +10,7 @@ public class BrowserInvoke {
 	public static void main(String[] args) {
 		//Creating Driver Object for Chrome
 		driver = new ChromeDriver();
-		//Invokig the site on Chrome Browser
+		//Invoking the site on Chrome Browser
 		driver.get("http://newtours.demoaut.com/");
 		driver.close();
 
